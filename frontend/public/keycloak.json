@@ -1,0 +1,8 @@
+{
+  "realm": "shikanga-microprofile",
+  "auth-server-url": "http://localhost:8282/auth",
+  "ssl-required": "external",
+  "resource": "shikanga-react-webapp",
+  "public-client": true,
+  "confidential-port": 0
+}
