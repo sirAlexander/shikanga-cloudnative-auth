@@ -9,7 +9,7 @@ Run the example with the following command:
 
     `docker-compose -f keycloak/docker-compose-postgres.yml up`
 
-Open http://localhost:8282/auth/admin and login as user 'admin' with password 'admin'.
+Open http://localhost:8282/auth and login as user 'admin' with password 'admin'.
 
 Note - If you run the example twice without removing the persisted volume there will be a warning 'user with username exists'. You can ignore this warning.
 
