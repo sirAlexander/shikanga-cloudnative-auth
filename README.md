@@ -52,3 +52,16 @@ To configure the frontend for the Keycloak authentication we need the **Keycloak
 ![Image of configuring frontend with keycloak JSON config](readme-resources/keycloakJsonConfig.png)
 
 That’s all for the **Keycloak** configuration. All your configured groups, roles and clients can be exported within the **Export** menu section.
+
+## Starting the frontend React application
+
+
+Run the following commands:
+``` 
+npm --prefix frontend/ install
+
+npm --prefix frontend/ start
+```
+
+Visit http://localhost:3000 and login with any of your created users
+
